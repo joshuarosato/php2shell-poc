@@ -1,0 +1,47 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Editor / tool artifacts
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary / lab paths used by the local PoC lab
+/tmp/
+/tmp/php-vuln85/
+/tmp/php-patched/
+/tmp/poc-lab/
+/tmp/poc-rootlab/
+/tmp/gdblab/
+/tmp/modphp-lab/
+/tmp/poctest/
+/tmp/fpmtest*/
+/tmp/ext-pwn/
+/tmp/opencode/
+
+# Build artifacts
+*.o
+*.so
+*.a
+*.lo
+*.la
+Makefile
+makefile
+config.cache
+config.log
+config.status
+libtool
+stamp-h1
+
+# OS / editor lock files
+.DS_Store
+Thumbs.db
